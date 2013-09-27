@@ -40,7 +40,7 @@ public class TestUtil {
 
 	@BeforeClass()
 	public void setup() throws Exception {
-
+//start recording
 		startRecording();
 		dateFormat();
 		driver = new FirefoxDriver();
