@@ -41,8 +41,8 @@ public class TestUtil {
 	@BeforeClass()
 	public void setup() throws Exception {
 //start recording
-		startRecording();
-		dateFormat();
+		//startRecording();
+		//dateFormat();
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		
@@ -70,8 +70,8 @@ public class TestUtil {
 	public void stopRecording() throws Exception {
 
 		driver.quit();
-		screenRecorder.stop();
-		moveAndDeleteVideo();
+		//screenRecorder.stop();
+		//moveAndDeleteVideo();
 	}
 
 	public void dateFormat() {

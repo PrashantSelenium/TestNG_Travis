@@ -6,8 +6,8 @@
       <class name="com.test.testng.WelcomePage">
         <methods>
           <include name="testWelcomePageScreen"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="stopRecording"/>
+          <include name="setup"/>
         </methods>
       </class>
     </classes>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Suite1]">
-  <test name="Regression1(failed)" preserve-order="true">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.test.testng.WelcomePage">
         <methods>
@@ -9,7 +9,7 @@
           <include name="stopRecording"/>
           <include name="setup"/>
         </methods>
-      </class>
+      </class> <!-- com.test.testng.WelcomePage -->
     </classes>
-  </test>
-</suite>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

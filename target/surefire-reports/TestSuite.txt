@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.201 sec <<< FAILURE!
-testWelcomePageScreen(com.test.testng.WelcomePage)  Time elapsed: 0.013 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 32.008 sec <<< FAILURE!
+testWelcomePageScreen(com.test.testng.WelcomePage)  Time elapsed: 4.414 sec  <<< FAILURE!
 java.lang.AssertionError: expected object to not be null
 	at org.testng.Assert.fail(Assert.java:89)
 	at org.testng.Assert.assertNotNull(Assert.java:399)
 	at org.testng.Assert.assertNotNull(Assert.java:384)
-	at com.test.testng.WelcomePage.testWelcomePageScreen(WelcomePage.java:42)
+	at com.test.testng.WelcomePage.testWelcomePageScreen(WelcomePage.java:18)

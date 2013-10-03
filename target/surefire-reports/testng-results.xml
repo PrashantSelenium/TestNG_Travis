@@ -2,14 +2,14 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="19827" started-at="2013-09-08T17:14:39Z" finished-at="2013-09-08T17:14:59Z">
+  <suite name="Suite1" duration-ms="31351" started-at="2013-10-01T10:58:17Z" finished-at="2013-10-01T10:58:49Z">
     <groups>
     </groups>
-    <test name="Regression1" duration-ms="19827" started-at="2013-09-08T17:14:39Z" finished-at="2013-09-08T17:14:59Z">
+    <test name="Regression1" duration-ms="31351" started-at="2013-10-01T10:58:17Z" finished-at="2013-10-01T10:58:49Z">
       <class name="com.test.testng.WelcomePage">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.testng.WelcomePage@af993e]" name="setUp" is-config="true" duration-ms="19096" started-at="2013-09-08T17:14:39Z" finished-at="2013-09-08T17:14:58Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.testng.WelcomePage@156b6b9]" name="setup" is-config="true" duration-ms="25353" started-at="2013-10-01T10:58:17Z" finished-at="2013-10-01T10:58:43Z">
         </test-method>
-        <test-method status="FAIL" signature="testWelcomePageScreen()[pri:0, instance:com.test.testng.WelcomePage@af993e]" name="testWelcomePageScreen" duration-ms="12" started-at="2013-09-08T17:14:58Z" finished-at="2013-09-08T17:14:58Z">
+        <test-method status="FAIL" signature="testWelcomePageScreen()[pri:0, instance:com.test.testng.WelcomePage@156b6b9]" name="testWelcomePageScreen" duration-ms="4401" started-at="2013-10-01T10:58:43Z" finished-at="2013-10-01T10:58:47Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected object to not be null]]>
@@ -19,7 +19,7 @@
 	at org.testng.Assert.fail(Assert.java:89)
 	at org.testng.Assert.assertNotNull(Assert.java:399)
 	at org.testng.Assert.assertNotNull(Assert.java:384)
-	at com.test.testng.WelcomePage.testWelcomePageScreen(WelcomePage.java:42)
+	at com.test.testng.WelcomePage.testWelcomePageScreen(WelcomePage.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -57,7 +57,7 @@
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.testng.WelcomePage@af993e]" name="tearDown" is-config="true" duration-ms="702" started-at="2013-09-08T17:14:58Z" finished-at="2013-09-08T17:14:59Z">
+        <test-method status="PASS" signature="stopRecording()[pri:0, instance:com.test.testng.WelcomePage@156b6b9]" name="stopRecording" is-config="true" duration-ms="1581" started-at="2013-10-01T10:58:47Z" finished-at="2013-10-01T10:58:49Z">
         </test-method>
       </class>
     </test>
