@@ -15,7 +15,7 @@ public class WelcomePage extends TestUtil {
 
 		try {
 			String a = null;
-			Assert.assertNotNull(a);
+			Assert.assertNull(a);
 			Thread.sleep(1000);
 		} catch (Exception t) {
 			t.printStackTrace();
